@@ -23,9 +23,9 @@ const getRepos = (repos) => {
    document.querySelector(".repos").innerHTML = 
    `
    
-   -> <a class = "repoLink" target="_blank" rel="noopener noreferrer" href="${firstRepoURL}">"${firstRepoName}"</a>
+   • <a class = "repoLink" target="_blank" rel="noopener noreferrer" href="${firstRepoURL}">"${firstRepoName}"</a>
    (${firstRepoDescription}) <br>
-   -> <a class = "repoLink" target="_blank" rel="noopener noreferrer" href="${secondRepoURL}">"${secondRepoName}"</a>
+   • <a class = "repoLink" target="_blank" rel="noopener noreferrer" href="${secondRepoURL}">"${secondRepoName}"</a>
    (${secondRepoDescription})
 
    `
